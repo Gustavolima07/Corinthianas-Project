@@ -1,0 +1,28 @@
+*{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#logoPNG{
+    width: 120px;
+    height: 150px; 
+    object-fit: cover; /* Cobre a imagem, não deixando ela esticada */
+    margin: 0 auto;
+    display: block;
+}
